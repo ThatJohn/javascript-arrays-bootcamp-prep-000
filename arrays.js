@@ -23,6 +23,7 @@ function accessElementInArray(array, index){
   return array[index];
 }
 
+<<<<<<< HEAD
 function removeElementFromBeginningOfArray(array){
   return array.slice(1);
 }
@@ -33,10 +34,20 @@ function destructivelyRemoveElementFromBeginningOfArray(array){
 }
 
 function destructivelyRemoveElementFromEndOfArray(array){
+=======
+destructivelyRemoveElementFromEndOfArray(array){
+>>>>>>> d76d8124fcc128f304fbc606fffc1085e5afb7ba
   array.pop();
   return array;
 }
 
+<<<<<<< HEAD
 function removeElementFromEndOfArray(chocolateBars){
   return chocolateBars.slice(0, chocolateBars.length - 1);
 }
+=======
+// function removeElementFromBeginningOfArray(array){
+//   array.shift();
+//   return array;
+// }
+>>>>>>> d76d8124fcc128f304fbc606fffc1085e5afb7ba
